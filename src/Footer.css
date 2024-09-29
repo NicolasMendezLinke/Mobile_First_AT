@@ -1,0 +1,151 @@
+.footer-container {
+  background-color: #134580;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+
+.footer-content {
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.form-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #e6951c;
+  
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.form-input {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.form-submit-btn {
+  background-color: #134580;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .footer-container {
+    padding: 80px 40px;
+    margin-top: 60px;
+  }
+
+  .footer-content {
+    padding: 60px;
+  }
+
+  .form-header {
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+
+  .anti-communism-image {
+    width: 130px;
+    height: 130px;
+  }
+
+  .form-title {
+    font-size: 2rem;
+  }
+
+  .newsletter-form {
+    gap: 25px;
+  }
+
+  .form-input {
+    padding: 20px;
+    font-size: 1.5rem;
+  }
+
+  .form-submit-btn {
+    margin-top: 15px;
+    padding: 20px 40px;
+    font-size: 1.5rem;
+  }
+  .div-rede-social {
+    margin-top: 40px;
+  }
+
+  .insta {
+    width: 100px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-container {
+    padding: 60px 40px;
+    margin-top: 60px;
+  }
+
+  .footer-content {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .form-header {
+    gap: 30px;
+  }
+
+
+  .form-title {
+    font-size: 2.5rem;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .form-input {
+    padding: 15px;
+    font-size: 1.5rem;
+    flex: 1;
+    max-width: 400px;
+  }
+
+  .form-submit-btn {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+  }
+
+}

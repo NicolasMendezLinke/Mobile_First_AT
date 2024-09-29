@@ -1,0 +1,141 @@
+.agenda-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.agenda-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #e29810;
+  margin-bottom: 20px;
+  background: #134580;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+}
+
+.agenda-date {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #e29810;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+}
+
+.agenda-name-description {
+  border: 1px solid rgb(255, 255, 255);
+  height: 100%;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.agenda-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.agenda-card {
+  background: #134580;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  flex: 1;
+  margin: 0 10spx;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.agenda-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #e29810;
+}
+
+.agenda-name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #e29810;
+  font-weight: bold;
+}
+
+.agenda-description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #e29810;
+  margin-top: 10px;
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.agenda-sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .agenda-section {
+    margin-top: 60px;
+  }
+
+  .agenda-title {
+    padding: 30px;
+    margin-bottom: 40px;
+    font-size: 40px;
+  }
+
+  .agenda-cards {
+    padding: 40px;
+    gap: 70px;
+  }
+
+  .agenda-date {
+    margin-bottom: 40px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .agenda-name {
+    font-size: 25px;
+  }
+
+  .agenda-name-description {
+    padding: 40px;
+  }
+
+  .agenda-card {
+    padding: 40px;
+  }
+
+  .agenda-description {
+    margin-top: 40px;
+    padding-top: 40px;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .agenda-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .agenda-card {
+    flex: 1;
+    min-width: 300px;
+  }
+}

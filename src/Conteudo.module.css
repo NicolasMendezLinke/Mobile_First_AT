@@ -1,0 +1,96 @@
+.main-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 25px;
+  background: #ffffff;
+  height: 100%;
+}
+
+.apresentation-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 10px 0 20px 0;
+}
+
+.politico {
+  height: 80px;
+  transform: scale(1.5);
+}
+
+.apresentation-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #134580;
+  text-transform: uppercase;
+  white-space: nowrap;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 577px) and (max-width: 1023px) {
+  * {
+    max-width: 1023px;
+  }
+
+  .header-content {
+    height: 150px;
+    gap: 150px;
+  }
+
+  .menu-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .menu-dropdown {
+    top: 95px;
+    height: calc(100vh - 150px);
+    gap: 100px;
+    width: 30%;
+    padding-top: 80px;
+  }
+
+  .apresentation-card {
+    margin: 20px 0 40px 0;
+  }
+
+  .apresentation-text {
+    padding: 20px;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  * {
+    max-width: none;
+  }
+  body {
+    min-width: 1024px;
+    max-width: 100%;
+  }
+
+  .apresentation-card {
+    margin-top: 60px;
+  }
+
+  .apresentation-card {
+    margin: 40px 0 50px 0;
+  }
+
+  .apresentation-text {
+    font-size: 30px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none;
+    animation: none;
+    scroll-behavior: auto;
+  }
+}

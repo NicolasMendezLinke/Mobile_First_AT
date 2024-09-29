@@ -1,0 +1,18 @@
+.propostasSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.propostaTitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #134580;
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .propostasSection {
+    margin-top: 60px;
+  }
+}
